@@ -14,7 +14,6 @@ odfpy==1.4.1
 openpyxl==3.0.3
 Pillow==7.1.2
 pytz==2019.3
-PyYAML==5.3.1
 simpleui==3.9
 sqlparse==0.3.1
 tablib==1.1.0

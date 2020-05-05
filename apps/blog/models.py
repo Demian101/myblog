@@ -163,7 +163,7 @@ class Site(models.Model):
     icp_url = models.CharField(max_length=50, verbose_name='备案链接')
     site_mail = models.CharField(max_length=50, verbose_name='我的邮箱')
     site_qq = models.CharField(max_length=50, verbose_name='我的QQ')
-    site_avatar = models.CharField(max_length=200, default='https://image.3001.net/images/20171226/15142933784705.png', verbose_name='我的头像')
+    site_avatar = models.CharField(max_length=200, default='http://imagesoda.oss-cn-beijing.aliyuncs.com/Sodaoo/2020-05-05-WechatIMG54.jpeg', verbose_name='我的头像')
 
     class Meta:
         verbose_name = '网站设置'
