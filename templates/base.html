@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-{% load static %}
+{% load static %}   <!-- 要使用static标签，首先需要 { % load static % }。 -->
+
 <head>
+
     <meta charset="utf-8">
     <meta name="keywords" content="{{ SITE_KEY}}">
     <meta name="description" content="{{ SITE_DESC }}">
@@ -13,7 +15,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>{% block title %}{% endblock %}{{ SITE_NAME }}</title>
-    <link rel="icon" type="image/png" href="https://image.3001.net/images/20191031/15724874583730.png">
+    <!-- <link rel="icon" type="image/png" href="https://image.3001.net/images/20191031/15724874583730.png"> -->
+     <link rel="icon" type="image/png" href="{% static 'medias/note_flat.png' %}">   <!-- 地址栏的图标 (引入静态文件) -->
+
 
     <link rel="stylesheet" type="text/css" href="{% static 'css/all.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/materialize.min.css' %}">
