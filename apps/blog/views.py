@@ -71,12 +71,13 @@ class Detail(View):
     def get(self, request, pk):
         article = Article.objects.get(id=int(pk))
         article.viewed()
-        mk = mistune.Markdown()
-        output = mk(article.content)
+        output = mistune.html(article.content)
+        mistune_ver = mistune.__version__
 
         return render(request, 'detail.html', {
             'article': article,
             'detail_html': output,
+            'mistune_ver': mistune_ver, 
         })
 
 
