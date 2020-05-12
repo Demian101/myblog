@@ -2287,3 +2287,16 @@ spawned uWSGI http 1 (pid: 10421)
 [pid: 10418|app: 0|req: 3/17] 117.136.0.172 () {42 vars in 702 bytes} [Tue May 12 13:23:37 2020] GET /friends/ => generated 17584 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 144 bytes (1 switches on core 1)
 [pid: 10417|app: 0|req: 9/18] 61.129.7.235 () {38 vars in 1004 bytes} [Tue May 12 13:24:00 2020] GET /libs/share/js/social-share.min.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 134 bytes (1 switches on core 0)
 [pid: 10417|app: 0|req: 10/19] 101.89.29.78 () {38 vars in 703 bytes} [Tue May 12 13:24:03 2020] GET /libs/share/js/social-share.min.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 134 bytes (1 switches on core 0)
+[pid: 10417|app: 0|req: 11/20] 101.89.29.94 () {36 vars in 1083 bytes} [Tue May 12 13:28:15 2020] GET /article/av4?nsukey=GudUxfGkhp%2Bpve6%2B6QlbbNo4oI0ysW7T6snzriKwymBVLDKuCNQHjzqnabYou3ZEu8ELUrOcGQ9y2PcKECKVSB6WfC4OuFOxzOwwXugbZL%2FNMN4tPFC6pcZBHPCmfN%2BmltQ8XqJmIMxfyiCecJOGpaFJlzrYyoGjFzmApOpYjZzcSV5YHT51zeLRcx%2Fh6v8atIBch6PVD8uQzHre57exUA%3D%3D => generated 31620 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 144 bytes (1 switches on core 0)
+[pid: 10417|app: 0|req: 12/21] 111.200.23.28 () {46 vars in 942 bytes} [Tue May 12 13:28:31 2020] GET /article/av4 => generated 31620 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 144 bytes (1 switches on core 1)
+[pid: 10417|app: 0|req: 13/22] 111.200.23.28 () {42 vars in 815 bytes} [Tue May 12 13:28:31 2020] GET /libs/share/css/share.min.css => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 134 bytes (1 switches on core 0)
+[pid: 10420|app: 0|req: 4/23] 111.200.23.28 () {42 vars in 810 bytes} [Tue May 12 13:28:31 2020] GET /libs/share/js/social-share.min.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 134 bytes (1 switches on core 0)
+[pid: 10418|app: 0|req: 4/24] 111.200.23.28 () {44 vars in 838 bytes} [Tue May 12 13:28:32 2020] GET /search.xml => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 134 bytes (1 switches on core 0)
+Tue May 12 13:28:50 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Tue May 12 13:28:50 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
